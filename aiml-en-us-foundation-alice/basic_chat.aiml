@@ -1,37 +1,107 @@
 <aiml version="1.0.1" encoding="UTF-8">
- <category>
-        <pattern>HELLO</pattern>
-        <template>
-            Well, hello!
-        </template>
-    </category>
 
-    <category>
-        <pattern>WHAT ARE YOU</pattern>
-        <template>
-            I'm a bot, silly!
-        </template>
-    </category>
-    <category>
-    <pattern>ONE TIME I *</pattern>
-    <template>
-        <random>
-            <li>Go on.</li>
-            <li>How old are you?</li>
-            <li>Be more specific.</li>
-            <li>I did not know that.</li>
-            <li>Are you telling the truth?</li>
-            <li>I don't know what that means.</li>
-            <li>Try to tell me that another way.</li>
-            <li>Are you talking about an animal, vegetable or mineral?</li>
-            <li>What is it?</li>
-        </random>
-    </template>
-</category>
  <category>
         <pattern>GST</pattern>
         <template>
-            good service tax
+             GST is one indirect tax for the whole nation, which will make India one unified common market.
+             GST is a single tax on the supply of goods and services, right from the manufacturer to the consumer. Credits of input taxes paid at each stage will be available in the subsequent stage of value addition, which makes GST essentially a tax only on value addition at each stage. The final consumer will thus bear only the GST charged by the last dealer in the supply chain, with set-off benefits at all the previous stages.
         </template>
     </category>
+ <category>
+        <pattern>What * GST</pattern>
+        <template>
+             GST is one indirect tax for the whole nation, which will make India one unified common market.
+             GST is a single tax on the supply of goods and services, right from the manufacturer to the consumer. Credits of input taxes paid at each stage will be available in the subsequent stage of value addition, which makes GST essentially a tax only on value addition at each stage. The final consumer will thus bear only the GST charged by the last dealer in the supply chain, with set-off benefits at all the previous stages.
+        </template>
+    </category>
+
+ <category>
+        <pattern>GST *</pattern>
+        <template>
+             GST is one indirect tax for the whole nation, which will make India one unified common market.GST is a single tax on the supply of goods and services, right from the manufacturer to the consumer. Credits of input taxes paid at each stage will be available in the subsequent stage of value addition, which makes GST essentially a tax only on value addition at each stage. The final consumer will thus bear only the GST charged by the last dealer in the supply chain, with set-off benefits at all the previous stages.
+        </template>
+    </category>
+
+<category>
+        <pattern>SGST</pattern>
+        <template>
+        Under GST, SGST is a tax levied on Intra State supplies of both goods and services by the State Government and will be governed by the SGST Act. As explained above, CGST will also be levied on the same Intra State supply but will be governed by the Central Government.
+        </template>
+    </category>
+ <category>
+        <pattern>What * SGST</pattern>
+        <template>
+        Under GST, SGST is a tax levied on Intra State supplies of both goods and services by the State Government and will be governed by the SGST Act. As explained above, CGST will also be levied on the same Intra State supply but will be governed by the Central Government.
+        </template>
+    </category>
+
+ <category>
+        <pattern>SGST *</pattern>
+        <template>
+        Under GST, SGST is a tax levied on Intra State supplies of both goods and services by the State Government and will be governed by the SGST Act. As explained above, CGST will also be levied on the same Intra State supply but will be governed by the Central Government.
+        </template>
+    </category>
+
+
+  <category>
+        <pattern>IGST</pattern>
+        <template>
+        Under GST, IGST is a tax levied on all Inter-State supplies of goods and/or services and will be governed by the IGST Act. IGST will be applicable on any supply of goods and/or services in both cases of import into India and export from India.
+
+        Note: Under IGST,
+
+        Exports would be zero-rated.
+        Tax will be shared between the Central and State Government.
+        </template>
+    </category>
+ <category>
+        <pattern>What * IGST</pattern>
+        <template>
+        Under GST, IGST is a tax levied on all Inter-State supplies of goods and/or services and will be governed by the IGST Act. IGST will be applicable on any supply of goods and/or services in both cases of import into India and export from India.
+
+        Note: Under IGST,
+
+        Exports would be zero-rated.
+        Tax will be shared between the Central and State Government.
+        </template>
+    </category>
+
+ <category>
+        <pattern>IGST *</pattern>
+        <template>
+        Under GST, IGST is a tax levied on all Inter-State supplies of goods and/or services and will be governed by the IGST Act. IGST will be applicable on any supply of goods and/or services in both cases of import into India and export from India.
+
+        Note: Under IGST,
+
+        Exports would be zero-rated.
+        Tax will be shared between the Central and State Government.
+        </template>
+    </category>
+
+   <category>
+        <pattern>CGST</pattern>
+        <template>
+      Under GST, CGST is a tax levied on Intra State supplies of both goods and services by the Central Government and will be governed by the CGST Act. SGST will also be levied on the same Intra State supply but will be governed by the State Government.
+
+This implies that both the Central and the State governments will agree on combining their levies with an appropriate proportion for revenue sharing between them. However, it is clearly mentioned in Section 8 of the GST Act that the taxes be levied on all Intra-State supplies of goods and/or services but the rate of tax shall not be exceeding 14%, each.
+        </template>
+    </category>
+ <category>
+        <pattern>What * CGST</pattern>
+        <template>
+      Under GST, CGST is a tax levied on Intra State supplies of both goods and services by the Central Government and will be governed by the CGST Act. SGST will also be levied on the same Intra State supply but will be governed by the State Government.
+
+This implies that both the Central and the State governments will agree on combining their levies with an appropriate proportion for revenue sharing between them. However, it is clearly mentioned in Section 8 of the GST Act that the taxes be levied on all Intra-State supplies of goods and/or services but the rate of tax shall not be exceeding 14%, each.
+        </template>
+    </category>
+
+ <category>
+        <pattern>CGST *</pattern>
+        <template>
+       Under GST, CGST is a tax levied on Intra State supplies of both goods and services by the Central Government and will be governed by the CGST Act. SGST will also be levied on the same Intra State supply but will be governed by the State Government.
+
+        This implies that both the Central and the State governments will agree on combining their levies with an appropriate proportion for revenue sharing between them. However, it is clearly mentioned in Section 8 of the GST Act that the taxes be levied on all Intra-State supplies of goods and/or services but the rate of tax shall not be exceeding 14%, each.
+        </template>
+    </category>
+
 </aiml>
